@@ -50,11 +50,11 @@ Make sure you have the following installed:
 
 3. Set up environment variables:
    Create a .env file in the root directory with the following values:
-   env
-   Copy code
-   MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_secret_key
-   PORT=5000
+   - env
+   - Copy code
+   - MONGO_URI=your_mongodb_connection_string
+   - JWT_SECRET=your_secret_key
+   - PORT=5000
 
 4. Start the development server:
    Backend:
@@ -80,8 +80,8 @@ Make sure you have the following installed:
    └── server.js       # Entry Point for Backend
    
 🔒 Security
-   .User passwords are hashed before storage using bcrypt.js.
-   .Secure authentication is implemented with JSON Web Tokens (JWT).
+   - User passwords are hashed before storage using bcrypt.js.
+   - Secure authentication is implemented with JSON Web Tokens (JWT).
 
 🌟 Future Enhancements
    .Add note categories for better organization.
@@ -95,8 +95,8 @@ Make sure you have the following installed:
 
 🤝 Contributing
    Contributions are welcome! Please follow these steps:
-      1. Fork the repository.
-      2. Create a feature branch: git checkout -b feature-name.
-      3. Commit your changes: git commit -m 'Add some feature'.
-      4. Push to the branch: git push origin feature-name.
-      5. Open a pull request.
+      - Fork the repository.
+      - Create a feature branch: git checkout -b feature-name.
+      - Commit your changes: git commit -m 'Add some feature'.
+      - Push to the branch: git push origin feature-name.
+      - Open a pull request.
