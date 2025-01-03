@@ -50,27 +50,31 @@ Make sure you have the following installed:
 
 3. Set up environment variables:
    Create a .env file in the root directory with the following values:
-   - env
-   - Copy code
-   - MONGO_URI=your_mongodb_connection_string
-   - JWT_SECRET=your_secret_key
-   - PORT=5000
+   ```env
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_secret_key
+   PORT=5000
+   ```
 
-4. Start the development server:
-   Backend:
+5. Start the development server:
+   - Backend:
     ```bash
-   npm start
-    
-   Frontend:
+       npm start
+    ```
+   - Frontend:
     ```bash
-   cd client
-   npm start
+      cd client
+      npm start
+    ```
     
-5. Open the app in your browser:
+6. Open the app in your browser:
    ```url
    http://localhost:3000
+   ```
+---
 
-📦 Folder Structure
+## 📦 Folder Structure
+```plaintext
    Nodejs-React-iNotebook/
    ├── client/         # React Frontend
    ├── models/         # MongoDB Models
@@ -78,25 +82,47 @@ Make sure you have the following installed:
    ├── middleware/     # Authentication Middleware
    ├── .env            # Environment Variables
    └── server.js       # Entry Point for Backend
-   
-🔒 Security
+```
+---
+
+## 🔒 Security
    - User passwords are hashed before storage using bcrypt.js.
    - Secure authentication is implemented with JSON Web Tokens (JWT).
 
-🌟 Future Enhancements
-   .Add note categories for better organization.
-   .Enable file uploads for attaching documents or images.
-   .Implement dark mode for better user experience.
+---
 
-📚 Learn More
+## 🌟 Future Enhancements
+   - Add note categories for better organization.
+   - Enable file uploads for attaching documents or images.
+   - Implement dark mode for better user experience.
+
+---
+
+## 📚 Learn More
    - [React.js Documentation](https://legacy.reactjs.org/docs/getting-started.html)
    - [Node.js Documentation](https://nodejs.org/docs/latest/api/)
    - [MongoDB Documentation](https://docs.mongodb.com/)
 
-🤝 Contributing
-   Contributions are welcome! Please follow these steps:
-      - Fork the repository.
-      - Create a feature branch: git checkout -b feature-name.
-      - Commit your changes: git commit -m 'Add some feature'.
-      - Push to the branch: git push origin feature-name.
-      - Open a pull request.
+---
+
+## 🤝 Contributing  
+Contributions are welcome! Please follow these steps:
+- Fork the repository
+- Create a feature branch: git checkout -b feature-name  
+- Commit your changes: git commit -m 'Add some feature'.
+- Push to the branch: git push origin feature-name.
+- Open a pull request.
+
+---
+
+## 📧 Contact
+   **Author**: Asif Javed
+   - [GitHub](https://github.com/asifjaved-dev)
+   - [Portfolio](http://asifjaved.work/)
+   - [LinkedIn](https://www.linkedin.com/in/asifjaved-dev/)
+
+---
+
+## ⭐ If you found this project helpful, please give it a star! ⭐
+
+---
